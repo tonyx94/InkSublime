@@ -1,12 +1,10 @@
 ---
-import { Image } from 'astro:assets';
 import logo from '../assets/ink_logo_negro.png'
-console.log(logo)
 ---
 <nav class="navbar">
   <!-- LOGO -->
   <div class="logo">
-    <img src="/ink_logo_negro.png" alt="logo">
+    <img src="/inksublime/ink_logo_negro.png" alt="logo">
   </div>
 
   <!-- NAVIGATION MENU -->
@@ -15,7 +13,7 @@ console.log(logo)
     <div class="menu">
       <!-- <li><a href="/Home">Home</a></li>
       <li><a href="/About">Quienes somos</a></li>
-      <li><a href="/Manufacture">Que hacemos</a></li>
+      <li><a href="/Manufacture">Que hacemos</a></li> 
       <li><a href="/Contact">Contactenos</a></li> -->
       <li><a class="catalogo" href="/">Catalogo</a></li>
     </div>
@@ -55,7 +53,7 @@ console.log(logo)
   .logo {
     height: clamp(4rem, 5.736vw + 2.164rem, 7rem);
   }
-  .logo .logo-image {
+  .logo img {
     width: 100%;
     height: 100%;
     filter: invert(1);
