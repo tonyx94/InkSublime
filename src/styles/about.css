@@ -10,18 +10,18 @@
     background: var(--color-background);
 }
 
-.title {
+.title-about {
     font-size: var(--heading);
     color: var(--color-primary);
     text-transform: uppercase;
 }
-.primary-text {
+.primary-text-about {
     font-weight: 500;
     font-size: var(--title);
     margin-top: 40px;
     color: var(--color-light);
 }
-.secondary-text {
+.secondary-text-about {
     font-weight: 300;
     font-size: var(--subtitle);
     margin-top: 20px;

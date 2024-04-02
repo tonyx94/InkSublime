@@ -11,14 +11,14 @@
     background: var(--color-background-darker);
   }
 
-  .title {
+  .title-works {
     z-index: 2;
     text-align: center;
     font-size: var(--heading);
     color: var(--color-primary);
     text-transform: uppercase;
   }
-  .primary-text {
+  .primary-text-works {
     z-index: 2;
     font-weight: 500;
     font-size: var(--title);
@@ -27,7 +27,7 @@
     color: var(--color-light);
   }
 
-  .rectangle {
+  .rectangle-works {
     top: 0;
     right: 0;
     width: 50%;
@@ -35,7 +35,7 @@
     position: absolute;
   }
 
-  .wrapper {
+  .wrapper-works {
     z-index: 3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -51,52 +51,52 @@
     align-content: center;
     justify-content: center;
   }
-  .product-a {
+  .product-a-works {
     grid-area: a;
     object-fit: contain;
   }
-  .product-b {
+  .product-b-works {
     grid-area: b;
     object-fit: contain;
   }
-  .product-c {
+  .product-c-works {
     grid-area: c;
     object-fit: contain;
   }
-  .product-d {
+  .product-d-works {
     grid-area: d;
     object-fit: contain;
   }
-  .product-e {
+  .product-e-works {
     grid-area: e;
     object-fit: contain;
   }
 
-  .product-image {
+  .product-image-works {
     width: 100%;
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
   }
 
-  .product {
+  .product-works {
     position: relative;
     overflow: hidden;
     transition: 0.4s ease-in-out;
   }
 
-  .wrapper:hover .product {
+  .wrapper-works:hover .product-works {
     filter: brightness(0.5);
   }
 
-  .wrapper .product:hover {
+  .wrapper-works .product-works:hover {
     z-index: 99;
     border-radius: 20px;
     transform: scale(1.1);
     filter: brightness(1);
   }
 
-  .content {
+  .content-works {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -110,11 +110,11 @@
     background: rgba(0, 0, 0, 0.5);
   }
 
-  .content h4 {
+  .content-works h4 {
     max-width: 400px;
   }
 
-  .product:hover .content {
+  .product-works:hover .content {
     transform: translateY(-100%);
     transition: 1s;
     transition-delay: 0.1s;

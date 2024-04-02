@@ -7,7 +7,7 @@
     background: var(--color-background-darker);
   }
 
-  .cards {
+  .cards-manufacture {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -20,12 +20,12 @@
   }
 
  
-  .cards > .card {
+  .cards-manufacture > .card-manufacture {
     /* display: flex;
     flex-direction: column; */
     flex:max(400px, (100% - 300px)/2);
   }
-  .cards .card .header {
+  .cards-manufacture .card-manufacture .header-manufacture {
     display: flex;
     padding: 18px 14px;
     flex-direction: row;
@@ -33,7 +33,7 @@
     color: #ffffff;
   }
 
-  .cards .card .header .number {
+  .cards-manufacture .card-manufacture .header-manufacture .number-manufacture {
     width: 40px;
     height: 40px;
     display: flex;
@@ -44,13 +44,13 @@
     background: var(--color-primary);
   }
 
-  .cards .card .body {
+  .card-manufacture .card-manufacture .body-manufacture {
     font-weight: 300;
     padding: 18px 14px;
     color: #ffffff;
     font-size: var(--body1);
   }
 
-  .title {
+  .title-manufacture {
     font-size: var(--heading);
   }
