@@ -54,3 +54,10 @@
   .title-manufacture {
     font-size: var(--heading);
   }
+
+  .text-manufacture {
+    font-weight: 300;
+    padding: 18px 14px;
+    color: #ffffff;
+    font-size: var(--body1);
+  }
