@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+.nav {
+    z-index: 3;
+    position: relative;
+    animation: fadeInDown 600ms ease-out both;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--color-background-darker);
+    background-image: url('../../public/portada.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.body {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    padding: 160px;
+    padding: clamp(4rem, 5.736vw + 2.164rem, 10rem)
+    
+}
+.body  > .text {
+    flex:max(400px, (100% - 600px)/6); /* and this */
+}
+
+.body .title{
+    z-index: 1;
+    text-align: end;
+    font-weight: 600;
+    font-size: clamp(2rem, 1.912vw + 1.388rem, 4rem);
+    color: var(--color-primary);
+    animation: right-to-left 600ms ease-out both;
+}
+.body .slogan{
+    z-index: 1;
+    text-align: end;
+    font-weight: 300;
+    font-size: clamp(1rem, 0.956vw + 0.694rem, 2rem);
+    color: var(--color-light);
+    animation: right-to-left 600ms 500ms ease-out both;
+}
+
+.social-media {
+    z-index: 3;
+    position: relative;
+    padding: 30px 60px;
+    animation: left-to-right 2s ease-out backwards;
+}
+.facebook, .instagram, .twitter {
+    height: 30px;
+    margin-bottom: 16px;
+    filter: invert(0);
+}
+
+.background {
+    top: 0;
+    z-index: 0;
+    position: absolute;
+    filter: brightness(0.3);
+}
+
+

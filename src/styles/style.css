@@ -1,0 +1,69 @@
+:root {
+    --color-primary: #e69b00;
+    --color-secondary: #4c422e;
+    --color-light: #f7f7f7;
+    --color-background: #333029;
+    --color-background-darker: #1d1d1d;
+
+	--title: clamp(1rem, 1.912vw + 0.388rem, 3rem);
+	--subtitle: clamp(1rem, 0.956vw + 0.694rem, 2rem);
+	--body1: clamp(0.8rem, 0.621vw + 0.601rem, 1.45rem);
+	--heading: clamp(1rem, 0.765vw + 0.355rem, 1.4rem);
+
+	--padding: clamp(1rem, 8.604vw + -1.753rem, 10rem);
+    background: #1d1d1d;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+    /* background-size: 224px; */
+}
+code {
+    font-family: Poppins;
+}
+
+@keyframes right-to-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}

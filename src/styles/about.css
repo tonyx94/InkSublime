@@ -1,0 +1,29 @@
+
+main {
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    padding: var(--padding);
+    flex-direction: column;
+    background: var(--color-background);
+}
+
+.title {
+    font-size: var(--heading);
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+.primary-text {
+    font-weight: 500;
+    font-size: var(--title);
+    margin-top: 40px;
+    color: var(--color-light);
+}
+.secondary-text {
+    font-weight: 300;
+    font-size: var(--subtitle);
+    margin-top: 20px;
+    color: var(--color-light);
+}

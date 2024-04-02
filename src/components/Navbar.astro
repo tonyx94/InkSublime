@@ -1,0 +1,75 @@
+<nav class="navbar">
+  <!-- LOGO -->
+  <div class="logo">
+    <img src="../../public/ink_logo_negro.png" alt="" />
+  </div>
+
+  <!-- NAVIGATION MENU -->
+  <ul class="nav-links">
+    <!-- NAVIGATION MENUS -->
+    <div class="menu">
+      <!-- <li><a href="/Home">Home</a></li>
+      <li><a href="/About">Quienes somos</a></li>
+      <li><a href="/Manufacture">Que hacemos</a></li>
+      <li><a href="/Contact">Contactenos</a></li> -->
+      <li><a class="catalogo" href="/">Catalogo</a></li>
+    </div>
+  </ul>
+</nav>
+
+<style>
+  a {
+    font-weight: 300;
+    font-family: Poppins;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /* NAVBAR STYLING STARTS */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(1rem, 1.912vw + 0.388rem, 3rem) clamp(1rem, 3.824vw + -0.224rem, 5rem);
+    color: #fff;
+  }
+
+  .catalogo {
+    font-weight: 500;
+    font-size: var(--heading);
+    color: var(--color-primary) !important
+  }
+  .nav-links a {
+    color: #fff;
+  }
+
+  /* LOGO */
+  .logo {
+    height: clamp(4rem, 5.736vw + 2.164rem, 7rem);
+  }
+  .logo img {
+    height: 100%;
+    filter: invert(1);
+  }
+
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+
+  .menu li:hover {
+    border-bottom: 2px solid var(--color-primary);
+    transition: 0.3s ease-in;
+  }
+
+  .menu li {
+    padding: 5px 14px;
+  }
+
+
+</style>
